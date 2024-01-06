@@ -29,3 +29,18 @@ print(x + y)
 # one line code 
 # print(int(input("What's x? ")) + int(input("What's y? ")))
 
+'''
+# float 
+z = round(float(input("What's x? ")) + float(input("What's y? "))) #we can round the float value[round(number[, ndigits])]
+print(f"{z:,}") #This is to format the output
+'''
+
+'''
+# Different operators 
+x = float(input("What's x: "))
+y = float(input("What's y: "))
+z1 = round(x/y,2)
+z2 = x/y
+print(z1, z2)
+print(f"{z2:.2f}") #this will format the until to 2 digit with format string
+'''
