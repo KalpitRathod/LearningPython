@@ -33,3 +33,14 @@ elif x > y:
 elif x == y: # or we can directly use else
     print("x and y is equal")
 '''
+
+'''
+# now we will use "or" 
+x = int(input("What's x? "))
+y = int(input("What's y? "))
+
+if x < y or x > y:
+    print("x is not equal to y")
+else:
+    print("x is equal to y")
+'''
