@@ -1,3 +1,4 @@
+'''
 score = int(input("Score: "))
 
 if score >= 90 and score <= 100: #if 90 <= score and score <= 100: #if 90 <= score <= 100: #if score >= 90
@@ -10,3 +11,4 @@ elif score >= 60 and score < 70: #if 60 <= score and score < 70: #if 60 <= score
     print("Grade: D")
 else:
     print("Grade: F")
+'''
